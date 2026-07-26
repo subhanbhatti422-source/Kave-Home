@@ -30,7 +30,7 @@
     margin: 0 auto;
     padding: 40px 24px;
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 10px 1fr;
     gap: 48px;
 }
 
@@ -56,15 +56,12 @@
     cursor: pointer;
 }
 
-.contact-sidebar li.active {
-    color: #2E0854;
-    font-weight: 600;
-    border-left-color: #FF3EA5;
-}
+
 
 .contact-title {
     position: relative;
     font-size: 36px;
+    margin-bottom: 25px;
     font-weight: 700;
     color: #2E0854;
     display: flex;
@@ -90,11 +87,7 @@
     margin-bottom: 16px;
 }
 
-.contact-text a {
-    color: #FF3EA5;
-    font-weight: 500;
-    text-decoration: none;
-}
+
 
 .contact-text a:hover {
     text-decoration: underline;
@@ -117,7 +110,7 @@
 }
 
 .contact-card:hover {
-    border-color: #FF3EA5;
+    border-color: #7a6b736b;
 }
 
 .card-head {

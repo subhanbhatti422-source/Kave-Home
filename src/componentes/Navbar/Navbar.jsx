@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import { Search, User, Bookmark, ShoppingBag, ChevronDown, Menu, X } from 'lucide-react'
+import { Search, User, Bookmark, ShoppingBag, Menu, X } from 'lucide-react'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -11,22 +11,6 @@ const Navbar = () => {
     <section className='navbar'>
 
     
-      <section className="promo-bar">
-        <p className="promo-text">
-          <strong>€100 off a selection*</strong> | DEAL100 <a href="#">Discover</a>
-        </p>
-        <div className="promo-links">
-          <Link to="/">Newsletter</Link>
-          <Link to="/about">About us</Link>
-          <Link to="/stores">Stores</Link>
-          <Link to="/shop">Shop</Link>
-          <Link to="/contact">Contact us</Link>
-          <span className="divider">|</span>
-          <button className="lang-select">
-            English <ChevronDown size={14} />
-          </button>
-        </div>
-      </section>
 
       <section className="header">
         <button
@@ -42,12 +26,15 @@ const Navbar = () => {
         </div>
 
         <nav className="main-nav">
-          <a href="#" className="active">Seasonal Deal</a>
-          <a href="#">New arrivals</a>
-          <a href="#">Products</a>
-          <a href="#">Rooms</a>
-          <a href="#">Inspiration</a>
-          <a href="#">Professionals</a>
+           <div className="promo-links">
+          <Link to="/">Home</Link>
+          <Link to="/about">About us</Link>
+          <Link to="/stores">Stores</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/contact">Contact us</Link>
+          
+          
+        </div>
         </nav>
 
         <div className="header-actions">
