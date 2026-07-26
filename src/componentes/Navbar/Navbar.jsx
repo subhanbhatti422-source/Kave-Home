@@ -52,14 +52,13 @@ const Navbar = () => {
       {/* Mobile drawer */}
       <div className={`mobile-menu ${menuOpen ? 'is-open' : ''}`}>
         <div className="mobile-menu__header">
-          <span className="logo-text">Kave Home</span>
+          <span className="logo-text"> <Link to="/"></Link> Kave Home</span>
           <button className="icon-btn" aria-label="Close menu" onClick={() => setMenuOpen(false)}>
             <X size={22} />
           </button>
         </div>
         <nav className="mobile-menu__nav">
-          <Link to="/" onClick={() => setMenuOpen(false)}>Seasonal Deal</Link>
-          <Link to="/" onClick={() => setMenuOpen(false)}>New arrivals</Link>
+          <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/shop" onClick={() => setMenuOpen(false)}>Products</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About us</Link>
           <Link to="/stores" onClick={() => setMenuOpen(false)}>Stores</Link>

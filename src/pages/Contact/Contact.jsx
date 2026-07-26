@@ -32,31 +32,18 @@ const Contact = () => {
             </p>
 
             <div className="contact-cards">
-              <div className="contact-card">
-                <div className="card-head"> <h3>Telephone contact</h3></div>
-                <p>Call us at <strong>+92 3XX XXX XXXX</strong></p>
-              </div>
+              
               <div className="contact-card">
                 <div className="card-head"> <h3>Email us</h3></div>
-                <p>Write to <strong>hello@growthstrategy.site</strong></p>
+                <p>Write to <strong>info@kavehome.com</strong></p>
               </div>
             </div>
 
-            <div className="contact-hours">
-              <div className="card-head"> <h3>Opening hours</h3></div>
-              <p>Monday to Friday: 09:00 – 18:00</p>
-              <span>Karachi (PKT, GMT+5)</span>
-            </div>
+          
 
             <hr />
 
-            <div className="contact-feedback">
-              <p>Was this article helpful?</p>
-              <div className="feedback-buttons">
-                <button className="btn-yes">Yes</button>
-                <button className="btn-no">No</button>
-              </div>
-            </div>
+          
 
            
           </div>
