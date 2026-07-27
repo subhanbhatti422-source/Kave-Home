@@ -34,7 +34,7 @@ element: <Contact/>
 }    
   ],
   {
-    basename: '/Kave-Home-react_website',
+    basename: "/Kave-Home",
   }
 )
 
